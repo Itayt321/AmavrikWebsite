@@ -482,13 +482,15 @@ h2 {
 }
 
 .formHeader_p:hover,
-.formButton:hover,.formButton_mini:hover {
+.formButton:hover,
+.formButton_mini:hover {
   transform: scale(0.9);
   transition: .2s;
 }
 
 .formHeader3_input,
-.formButton,.formButton_mini {
+.formButton,
+.formButton_mini {
   border-radius: 1rem;
   background-color: transparent;
   color: white;
@@ -498,11 +500,12 @@ h2 {
   color: white;
 }
 
-.formHeader3_input:hover{
+.formHeader3_input:hover {
   border: 2px solid white;
 }
 
-.formButton,.formButton_mini {
+.formButton,
+.formButton_mini {
   width: fit-content;
   border: 2px solid white;
   font-size: x-large;
@@ -600,50 +603,65 @@ li a:hover {
   .formHeader {
     row-gap: 0rem;
   }
+
   .formHeader3 {
-    gap:0.5rem;
+    gap: 0.5rem;
   }
+
   .formHeader_mini {
     padding: 20px 0px 20px 0px;
   }
 
-  .footer{
+  .footer {
     padding: 0px 0px 0px 0px;
   }
 }
 
-#container-Top-phone,#container-Top-mail,#container-Footer-phone,#container-Footer-mail{
+#container-Top-phone,
+#container-Top-mail,
+#container-Footer-phone,
+#container-Footer-mail {
   cursor: pointer;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a:hover{
-  color:white;
+a:hover {
+  color: white;
 }
 
-.cleaningPhone.p a:hover{
-  color:black;
+.cleaningPhone.p a:hover {
+  color: black;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:20px;
-	right:20px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+  margin-top: 16px;
   margin-left: 17px;
+}
+
+#credit {
+  text-align: center;
+  background-color: #93af86;
+  color: #FFF;
+}
+
+#credit:hover {
+  text-decoration:overline;
 }
